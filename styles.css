@@ -1,0 +1,168 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: linear-gradient(to right, #6699ff 0%, #ff99cc 100%);;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+content{
+    display: flex;
+    border-bottom: 5px solid #6699ff;
+}
+
+content div{
+    width:auto;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+content button{
+    padding: 15px;
+    background-color: #4da6ff;
+    border-radius: 7px;
+    border: none;
+}
+content button:hover {
+    background: linear-gradient(to right, #1e88e5, #1565c0);
+}
+
+content a{
+    text-decoration: none;
+    color: white;
+}
+
+.Seperate button{
+    background-color: lightgrey;
+}
+.Seperate a{
+    color: black;
+}
+
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    padding: 10px;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    margin-right: 5px;
+}
+
+#summary{
+    color: black;
+    background: #b3cccc;
+}
+#transfers{
+    color:black;
+    background: linear-gradient(to right, #42a5f5, #1e88e5);;
+
+}
+.tab-content {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content.active {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+thead {
+    background: linear-gradient(to right, #64b5f6, #2196f3);
+    color: #fff;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background: linear-gradient(to right, #42a5f5, #1e88e5);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #1e88e5, #1565c0);
+}
+
+.date-picker {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:#b3b3ff;
+}
+#help-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.dropdown{
+    background-color: #b3d9ff;
+}
